@@ -9,5 +9,6 @@
         let instance = HelloWorld.deployed()
         let numero = await instance.numero();
         await.setNumero(10);
+        let instance2 = HelloWorld.at('address');
         
 
