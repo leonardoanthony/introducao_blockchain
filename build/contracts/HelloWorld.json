@@ -748,7 +748,7 @@
   "sourceMap": "62:188:0:-:0;;;116:42;;;;;;;;;;149:1;140:6;:10;;;;62:188;;;;;;",
   "deployedSourceMap": "62:188:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;166:81;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;89:18;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;166:81;229:10;220:6;:19;;;;166:81;:::o;89:18::-;;;;:::o;88:117:1:-;197:1;194;187:12;334:77;371:7;400:5;389:16;;334:77;;;:::o;417:122::-;490:24;508:5;490:24;:::i;:::-;483:5;480:35;470:63;;529:1;526;519:12;470:63;417:122;:::o;545:139::-;591:5;629:6;616:20;607:29;;645:33;672:5;645:33;:::i;:::-;545:139;;;;:::o;690:329::-;749:6;798:2;786:9;777:7;773:23;769:32;766:119;;;804:79;;:::i;:::-;766:119;924:1;949:53;994:7;985:6;974:9;970:22;949:53;:::i;:::-;939:63;;895:117;690:329;;;;:::o;1025:118::-;1112:24;1130:5;1112:24;:::i;:::-;1107:3;1100:37;1025:118;;:::o;1149:222::-;1242:4;1280:2;1269:9;1265:18;1257:26;;1293:71;1361:1;1350:9;1346:17;1337:6;1293:71;:::i;:::-;1149:222;;;;:::o",
   "source": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity ^0.8.0;\r\n\r\ncontract HelloWorld {\r\n    uint public numero;\r\n\r\n    constructor(){\r\n        numero = 0;\r\n    }\r\n\r\n    function setNumero(uint _newNumero) public {\r\n        numero = _newNumero;\r\n    }\r\n}",
-  "sourcePath": "C:\\Users\\Lenovo Ideapad 330\\Documents\\Github\\introducao_blockchain\\contracts\\HelloWorld.sol",
+  "sourcePath": "C:\\Users\\MARIA EDUARDA\\OneDrive\\Documentos\\Github\\Truffle\\primeiro-projeto\\contracts\\HelloWorld.sol",
   "ast": {
     "absolutePath": "project:/contracts/HelloWorld.sol",
     "exportedSymbols": {
@@ -1015,12 +1015,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x5F3EA5353938E1fAAeb6475E8e5d96c225342C17",
-      "transactionHash": "0xe2f223b0157eff1d74c6eb687dd2f9d9133ae821723ccb91af83c7f21b73e609"
+      "address": "0x32E22447B3921Ae83b673c41781aEB9E657AD95F",
+      "transactionHash": "0x19e0c1885a6fd1937149f189f522138fdfa8a2d757647f88bd6df8116d6a72d5"
     }
   },
   "schemaVersion": "3.4.15",
-  "updatedAt": "2023-08-24T01:48:39.000Z",
+  "updatedAt": "2023-08-24T12:09:31.250Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
