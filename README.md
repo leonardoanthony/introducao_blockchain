@@ -23,3 +23,11 @@
                 data: '0x' + 8 primeiro caracteres do hash ( padrão Keccak-256 https://emn178.github.io/online-tools/keccak_256.html e de seus parametros se houver)
         }
         let receipt = await web3.eth.call (transaction); //envia a transacao
+
+
+
+        0000000000000000000000000000000000000000000000000000000000000020
+        0000000000000000000000000000000000000000000000000000000000000008
+        4665726e616e6461000000000000000000000000000000000000000000000000
+
+
