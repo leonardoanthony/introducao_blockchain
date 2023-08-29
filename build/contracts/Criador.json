@@ -32,27 +32,27 @@
     {
       "ast": {
         "nodeType": "YulBlock",
-        "src": "0:590:3",
+        "src": "0:590:4",
         "statements": [
           {
             "body": {
               "nodeType": "YulBlock",
-              "src": "52:81:3",
+              "src": "52:81:4",
               "statements": [
                 {
                   "nodeType": "YulAssignment",
-                  "src": "62:65:3",
+                  "src": "62:65:4",
                   "value": {
                     "arguments": [
                       {
                         "name": "value",
                         "nodeType": "YulIdentifier",
-                        "src": "77:5:3"
+                        "src": "77:5:4"
                       },
                       {
                         "kind": "number",
                         "nodeType": "YulLiteral",
-                        "src": "84:42:3",
+                        "src": "84:42:4",
                         "type": "",
                         "value": "0xffffffffffffffffffffffffffffffffffffffff"
                       }
@@ -60,16 +60,16 @@
                     "functionName": {
                       "name": "and",
                       "nodeType": "YulIdentifier",
-                      "src": "73:3:3"
+                      "src": "73:3:4"
                     },
                     "nodeType": "YulFunctionCall",
-                    "src": "73:54:3"
+                    "src": "73:54:4"
                   },
                   "variableNames": [
                     {
                       "name": "cleaned",
                       "nodeType": "YulIdentifier",
-                      "src": "62:7:3"
+                      "src": "62:7:4"
                     }
                   ]
                 }
@@ -81,7 +81,7 @@
               {
                 "name": "value",
                 "nodeType": "YulTypedName",
-                "src": "34:5:3",
+                "src": "34:5:4",
                 "type": ""
               }
             ],
@@ -89,41 +89,41 @@
               {
                 "name": "cleaned",
                 "nodeType": "YulTypedName",
-                "src": "44:7:3",
+                "src": "44:7:4",
                 "type": ""
               }
             ],
-            "src": "7:126:3"
+            "src": "7:126:4"
           },
           {
             "body": {
               "nodeType": "YulBlock",
-              "src": "184:51:3",
+              "src": "184:51:4",
               "statements": [
                 {
                   "nodeType": "YulAssignment",
-                  "src": "194:35:3",
+                  "src": "194:35:4",
                   "value": {
                     "arguments": [
                       {
                         "name": "value",
                         "nodeType": "YulIdentifier",
-                        "src": "223:5:3"
+                        "src": "223:5:4"
                       }
                     ],
                     "functionName": {
                       "name": "cleanup_t_uint160",
                       "nodeType": "YulIdentifier",
-                      "src": "205:17:3"
+                      "src": "205:17:4"
                     },
                     "nodeType": "YulFunctionCall",
-                    "src": "205:24:3"
+                    "src": "205:24:4"
                   },
                   "variableNames": [
                     {
                       "name": "cleaned",
                       "nodeType": "YulIdentifier",
-                      "src": "194:7:3"
+                      "src": "194:7:4"
                     }
                   ]
                 }
@@ -135,7 +135,7 @@
               {
                 "name": "value",
                 "nodeType": "YulTypedName",
-                "src": "166:5:3",
+                "src": "166:5:4",
                 "type": ""
               }
             ],
@@ -143,16 +143,16 @@
               {
                 "name": "cleaned",
                 "nodeType": "YulTypedName",
-                "src": "176:7:3",
+                "src": "176:7:4",
                 "type": ""
               }
             ],
-            "src": "139:96:3"
+            "src": "139:96:4"
           },
           {
             "body": {
               "nodeType": "YulBlock",
-              "src": "306:53:3",
+              "src": "306:53:4",
               "statements": [
                 {
                   "expression": {
@@ -160,35 +160,35 @@
                       {
                         "name": "pos",
                         "nodeType": "YulIdentifier",
-                        "src": "323:3:3"
+                        "src": "323:3:4"
                       },
                       {
                         "arguments": [
                           {
                             "name": "value",
                             "nodeType": "YulIdentifier",
-                            "src": "346:5:3"
+                            "src": "346:5:4"
                           }
                         ],
                         "functionName": {
                           "name": "cleanup_t_address",
                           "nodeType": "YulIdentifier",
-                          "src": "328:17:3"
+                          "src": "328:17:4"
                         },
                         "nodeType": "YulFunctionCall",
-                        "src": "328:24:3"
+                        "src": "328:24:4"
                       }
                     ],
                     "functionName": {
                       "name": "mstore",
                       "nodeType": "YulIdentifier",
-                      "src": "316:6:3"
+                      "src": "316:6:4"
                     },
                     "nodeType": "YulFunctionCall",
-                    "src": "316:37:3"
+                    "src": "316:37:4"
                   },
                   "nodeType": "YulExpressionStatement",
-                  "src": "316:37:3"
+                  "src": "316:37:4"
                 }
               ]
             },
@@ -198,37 +198,37 @@
               {
                 "name": "value",
                 "nodeType": "YulTypedName",
-                "src": "294:5:3",
+                "src": "294:5:4",
                 "type": ""
               },
               {
                 "name": "pos",
                 "nodeType": "YulTypedName",
-                "src": "301:3:3",
+                "src": "301:3:4",
                 "type": ""
               }
             ],
-            "src": "241:118:3"
+            "src": "241:118:4"
           },
           {
             "body": {
               "nodeType": "YulBlock",
-              "src": "463:124:3",
+              "src": "463:124:4",
               "statements": [
                 {
                   "nodeType": "YulAssignment",
-                  "src": "473:26:3",
+                  "src": "473:26:4",
                   "value": {
                     "arguments": [
                       {
                         "name": "headStart",
                         "nodeType": "YulIdentifier",
-                        "src": "485:9:3"
+                        "src": "485:9:4"
                       },
                       {
                         "kind": "number",
                         "nodeType": "YulLiteral",
-                        "src": "496:2:3",
+                        "src": "496:2:4",
                         "type": "",
                         "value": "32"
                       }
@@ -236,16 +236,16 @@
                     "functionName": {
                       "name": "add",
                       "nodeType": "YulIdentifier",
-                      "src": "481:3:3"
+                      "src": "481:3:4"
                     },
                     "nodeType": "YulFunctionCall",
-                    "src": "481:18:3"
+                    "src": "481:18:4"
                   },
                   "variableNames": [
                     {
                       "name": "tail",
                       "nodeType": "YulIdentifier",
-                      "src": "473:4:3"
+                      "src": "473:4:4"
                     }
                   ]
                 },
@@ -255,19 +255,19 @@
                       {
                         "name": "value0",
                         "nodeType": "YulIdentifier",
-                        "src": "553:6:3"
+                        "src": "553:6:4"
                       },
                       {
                         "arguments": [
                           {
                             "name": "headStart",
                             "nodeType": "YulIdentifier",
-                            "src": "566:9:3"
+                            "src": "566:9:4"
                           },
                           {
                             "kind": "number",
                             "nodeType": "YulLiteral",
-                            "src": "577:1:3",
+                            "src": "577:1:4",
                             "type": "",
                             "value": "0"
                           }
@@ -275,22 +275,22 @@
                         "functionName": {
                           "name": "add",
                           "nodeType": "YulIdentifier",
-                          "src": "562:3:3"
+                          "src": "562:3:4"
                         },
                         "nodeType": "YulFunctionCall",
-                        "src": "562:17:3"
+                        "src": "562:17:4"
                       }
                     ],
                     "functionName": {
                       "name": "abi_encode_t_address_to_t_address_fromStack",
                       "nodeType": "YulIdentifier",
-                      "src": "509:43:3"
+                      "src": "509:43:4"
                     },
                     "nodeType": "YulFunctionCall",
-                    "src": "509:71:3"
+                    "src": "509:71:4"
                   },
                   "nodeType": "YulExpressionStatement",
-                  "src": "509:71:3"
+                  "src": "509:71:4"
                 }
               ]
             },
@@ -300,13 +300,13 @@
               {
                 "name": "headStart",
                 "nodeType": "YulTypedName",
-                "src": "435:9:3",
+                "src": "435:9:4",
                 "type": ""
               },
               {
                 "name": "value0",
                 "nodeType": "YulTypedName",
-                "src": "447:6:3",
+                "src": "447:6:4",
                 "type": ""
               }
             ],
@@ -314,43 +314,43 @@
               {
                 "name": "tail",
                 "nodeType": "YulTypedName",
-                "src": "458:4:3",
+                "src": "458:4:4",
                 "type": ""
               }
             ],
-            "src": "365:222:3"
+            "src": "365:222:4"
           }
         ]
       },
       "contents": "{\n\n    function cleanup_t_uint160(value) -> cleaned {\n        cleaned := and(value, 0xffffffffffffffffffffffffffffffffffffffff)\n    }\n\n    function cleanup_t_address(value) -> cleaned {\n        cleaned := cleanup_t_uint160(value)\n    }\n\n    function abi_encode_t_address_to_t_address_fromStack(value, pos) {\n        mstore(pos, cleanup_t_address(value))\n    }\n\n    function abi_encode_tuple_t_address__to_t_address__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_address_to_t_address_fromStack(value0,  add(headStart, 0))\n\n    }\n\n}\n",
-      "id": 3,
+      "id": 4,
       "language": "Yul",
       "name": "#utility.yul"
     }
   ],
-  "sourceMap": "88:180:0:-:0;;;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "88:180:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;112:23;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;144:121;;;:::i;:::-;;112:23;;;;;;;;;;;;:::o;144:121::-;184:17;204:12;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;184:32;;246:10;227:8;;:30;;;;;;;;;;;;;;;;;;173:92;144:121::o;-1:-1:-1:-;;;;;;;;:::o;7:126:3:-;44:7;84:42;77:5;73:54;62:65;;7:126;;;:::o;139:96::-;176:7;205:24;223:5;205:24;:::i;:::-;194:35;;139:96;;;:::o;241:118::-;328:24;346:5;328:24;:::i;:::-;323:3;316:37;241:118;;:::o;365:222::-;458:4;496:2;485:9;481:18;473:26;;509:71;577:1;566:9;562:17;553:6;509:71;:::i;:::-;365:222;;;;:::o",
+  "sourceMap": "88:180:1:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "88:180:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;112:23;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;144:121;;;:::i;:::-;;112:23;;;;;;;;;;;;:::o;144:121::-;184:17;204:12;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;184:32;;246:10;227:8;;:30;;;;;;;;;;;;;;;;;;173:92;144:121::o;-1:-1:-1:-;;;;;;;;:::o;7:126:4:-;44:7;84:42;77:5;73:54;62:65;;7:126;;;:::o;139:96::-;176:7;205:24;223:5;205:24;:::i;:::-;194:35;;139:96;;;:::o;241:118::-;328:24;346:5;328:24;:::i;:::-;323:3;316:37;241:118;;:::o;365:222::-;458:4;496:2;485:9;481:18;473:26;;509:71;577:1;566:9;562:17;553:6;509:71;:::i;:::-;365:222;;;;:::o",
   "source": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity ^0.8.0;\r\n\r\nimport \"./Padrao.sol\";\r\n\r\ncontract Criador {\r\n    address public endereco;\r\n\r\n    function criaPadrao() public {\r\n        Padrao novoPadrao = new Padrao();\r\n        endereco = address(novoPadrao);\r\n    }\r\n}",
   "sourcePath": "C:\\Users\\MARIA EDUARDA\\OneDrive\\Documentos\\Github\\Truffle\\primeiro-projeto\\contracts\\Criador.sol",
   "ast": {
     "absolutePath": "project:/contracts/Criador.sol",
     "exportedSymbols": {
       "Criador": [
-        24
+        56
       ],
       "HelloWorld": [
-        47
+        79
       ],
       "Padrao": [
-        63
+        95
       ]
     },
-    "id": 25,
+    "id": 57,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1,
+        "id": 33,
         "literals": [
           "solidity",
           "^",
@@ -358,17 +358,17 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "35:23:0"
+        "src": "35:23:1"
       },
       {
         "absolutePath": "project:/contracts/Padrao.sol",
         "file": "./Padrao.sol",
-        "id": 2,
+        "id": 34,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 25,
-        "sourceUnit": 64,
-        "src": "62:22:0",
+        "scope": 57,
+        "sourceUnit": 96,
+        "src": "62:22:1",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -377,28 +377,28 @@
         "baseContracts": [],
         "canonicalName": "Criador",
         "contractDependencies": [
-          63
+          95
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 24,
+        "id": 56,
         "linearizedBaseContracts": [
-          24
+          56
         ],
         "name": "Criador",
-        "nameLocation": "97:7:0",
+        "nameLocation": "97:7:1",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
             "functionSelector": "f38b2743",
-            "id": 4,
+            "id": 36,
             "mutability": "mutable",
             "name": "endereco",
-            "nameLocation": "127:8:0",
+            "nameLocation": "127:8:1",
             "nodeType": "VariableDeclaration",
-            "scope": 24,
-            "src": "112:23:0",
+            "scope": 56,
+            "src": "112:23:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -406,10 +406,10 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 3,
+              "id": 35,
               "name": "address",
               "nodeType": "ElementaryTypeName",
-              "src": "112:7:0",
+              "src": "112:7:1",
               "stateMutability": "nonpayable",
               "typeDescriptions": {
                 "typeIdentifier": "t_address",
@@ -420,85 +420,85 @@
           },
           {
             "body": {
-              "id": 22,
+              "id": 54,
               "nodeType": "Block",
-              "src": "173:92:0",
+              "src": "173:92:1",
               "statements": [
                 {
                   "assignments": [
-                    9
+                    41
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 9,
+                      "id": 41,
                       "mutability": "mutable",
                       "name": "novoPadrao",
-                      "nameLocation": "191:10:0",
+                      "nameLocation": "191:10:1",
                       "nodeType": "VariableDeclaration",
-                      "scope": 22,
-                      "src": "184:17:0",
+                      "scope": 54,
+                      "src": "184:17:1",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Padrao_$63",
+                        "typeIdentifier": "t_contract$_Padrao_$95",
                         "typeString": "contract Padrao"
                       },
                       "typeName": {
-                        "id": 8,
+                        "id": 40,
                         "nodeType": "UserDefinedTypeName",
                         "pathNode": {
-                          "id": 7,
+                          "id": 39,
                           "name": "Padrao",
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 63,
-                          "src": "184:6:0"
+                          "referencedDeclaration": 95,
+                          "src": "184:6:1"
                         },
-                        "referencedDeclaration": 63,
-                        "src": "184:6:0",
+                        "referencedDeclaration": 95,
+                        "src": "184:6:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Padrao_$63",
+                          "typeIdentifier": "t_contract$_Padrao_$95",
                           "typeString": "contract Padrao"
                         }
                       },
                       "visibility": "internal"
                     }
                   ],
-                  "id": 14,
+                  "id": 46,
                   "initialValue": {
                     "arguments": [],
                     "expression": {
                       "argumentTypes": [],
-                      "id": 12,
+                      "id": 44,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "NewExpression",
-                      "src": "204:10:0",
+                      "src": "204:10:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_Padrao_$63_$",
+                        "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_Padrao_$95_$",
                         "typeString": "function () returns (contract Padrao)"
                       },
                       "typeName": {
-                        "id": 11,
+                        "id": 43,
                         "nodeType": "UserDefinedTypeName",
                         "pathNode": {
-                          "id": 10,
+                          "id": 42,
                           "name": "Padrao",
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 63,
-                          "src": "208:6:0"
+                          "referencedDeclaration": 95,
+                          "src": "208:6:1"
                         },
-                        "referencedDeclaration": 63,
-                        "src": "208:6:0",
+                        "referencedDeclaration": 95,
+                        "src": "208:6:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Padrao_$63",
+                          "typeIdentifier": "t_contract$_Padrao_$95",
                           "typeString": "contract Padrao"
                         }
                       }
                     },
-                    "id": 13,
+                    "id": 45,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -506,30 +506,30 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "204:12:0",
+                    "src": "204:12:1",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Padrao_$63",
+                      "typeIdentifier": "t_contract$_Padrao_$95",
                       "typeString": "contract Padrao"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "184:32:0"
+                  "src": "184:32:1"
                 },
                 {
                   "expression": {
-                    "id": 20,
+                    "id": 52,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 15,
+                      "id": 47,
                       "name": "endereco",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4,
-                      "src": "227:8:0",
+                      "referencedDeclaration": 36,
+                      "src": "227:8:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -540,14 +540,14 @@
                     "rightHandSide": {
                       "arguments": [
                         {
-                          "id": 18,
+                          "id": 50,
                           "name": "novoPadrao",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 9,
-                          "src": "246:10:0",
+                          "referencedDeclaration": 41,
+                          "src": "246:10:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_Padrao_$63",
+                            "typeIdentifier": "t_contract$_Padrao_$95",
                             "typeString": "contract Padrao"
                           }
                         }
@@ -555,30 +555,30 @@
                       "expression": {
                         "argumentTypes": [
                           {
-                            "typeIdentifier": "t_contract$_Padrao_$63",
+                            "typeIdentifier": "t_contract$_Padrao_$95",
                             "typeString": "contract Padrao"
                           }
                         ],
-                        "id": 17,
+                        "id": 49,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "lValueRequested": false,
                         "nodeType": "ElementaryTypeNameExpression",
-                        "src": "238:7:0",
+                        "src": "238:7:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_type$_t_address_$",
                           "typeString": "type(address)"
                         },
                         "typeName": {
-                          "id": 16,
+                          "id": 48,
                           "name": "address",
                           "nodeType": "ElementaryTypeName",
-                          "src": "238:7:0",
+                          "src": "238:7:1",
                           "typeDescriptions": {}
                         }
                       },
-                      "id": 19,
+                      "id": 51,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -586,58 +586,58 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "238:19:0",
+                      "src": "238:19:1",
                       "tryCall": false,
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
                       }
                     },
-                    "src": "227:30:0",
+                    "src": "227:30:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
                     }
                   },
-                  "id": 21,
+                  "id": 53,
                   "nodeType": "ExpressionStatement",
-                  "src": "227:30:0"
+                  "src": "227:30:1"
                 }
               ]
             },
             "functionSelector": "f503b220",
-            "id": 23,
+            "id": 55,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "criaPadrao",
-            "nameLocation": "153:10:0",
+            "nameLocation": "153:10:1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 5,
+              "id": 37,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "163:2:0"
+              "src": "163:2:1"
             },
             "returnParameters": {
-              "id": 6,
+              "id": 38,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "173:0:0"
+              "src": "173:0:1"
             },
-            "scope": 24,
-            "src": "144:121:0",
+            "scope": 56,
+            "src": "144:121:1",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 25,
-        "src": "88:180:0",
+        "scope": 57,
+        "src": "88:180:1",
         "usedErrors": []
       }
     ],
-    "src": "35:233:0"
+    "src": "35:233:1"
   },
   "compiler": {
     "name": "solc",
@@ -647,12 +647,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x4007D48a230160b8AD275AC9D1BA18a908107c66",
-      "transactionHash": "0x208248f4a62d963eaa32d9e3c65f9f9f1ccca8ceb16c7e06704eb01f34535b9a"
+      "address": "0x05E89f78Fdcf43cEDCC584e3a8ce289bA12E5913",
+      "transactionHash": "0x7fccb7e682ab75b7e6eded15fbf95e377226800617c81ecd9f363293bd095bb5"
     }
   },
   "schemaVersion": "3.4.15",
-  "updatedAt": "2023-08-28T19:39:24.532Z",
+  "updatedAt": "2023-08-29T16:26:33.775Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
