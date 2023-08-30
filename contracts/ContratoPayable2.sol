@@ -29,6 +29,7 @@ contract ContratoPayable {
     }
 
     function createAccount(string memory _name) public{
+        require(clients[msg.sender].wallet == address(0), "Account already exists");
         Client memory newClient;
 
         newClient.name = _name;
@@ -51,13 +52,14 @@ contract ContratoPayable {
     }
 
     function deposit() public payable{
+        require(clients[msg.sender].wallet != address(0), "Account does not exist");
         clients[msg.sender].value = msg.value;
     }
 
     function withdraw() public {
         uint value = clients[msg.sender].value;
 
-        uint256 clientWithdraw = (value * 9) / 10;
+        uint256 clientWithdraw = (value * 9 / 100);
         uint256 contractWithdraw = value - clientWithdraw;
 
         address payable client = payable(msg.sender);
