@@ -6,32 +6,56 @@ contract ContratoPayable {
 
     address payable public owner;
 
-    mapping(address => uint) public clients;
+    struct Client {
+        address wallet;
+        string name;
+        uint value;
+    }
+
+    mapping(address => Client) public clients;
 
     receive() external payable{}
 
     constructor() {
         owner = payable(msg.sender);
+
+        Client memory newClient;
+
+        newClient.name = "Leonardo";
+        newClient.wallet = owner;
+        newClient.value = 0;
+
+        clients[msg.sender] = newClient;
+    }
+
+    function createAccount(string memory _name) public{
+        Client memory newClient;
+
+        newClient.name = _name;
+        newClient.wallet = payable(msg.sender);
+        newClient.value = 0;
+
+        clients[msg.sender]  = newClient;
     }
 
     function getWalletBalance() public view returns(uint) {
-        return address(msg.sender).balance;
+        return address(msg.sender).balance / 1000000000000000000;
     }
 
     function getAccountBalance() public view returns(uint){
-        return clients[msg.sender];
+        return clients[msg.sender].value / 1000000000000000000;
     }
 
     function getContractBalance() public view returns(uint) {
-        return address(this).balance;
+        return address(this).balance / 1000000000000000000;
     }
 
-    function recebeDinheiro() public payable{
-        clients[msg.sender] = msg.value;
+    function deposit() public payable{
+        clients[msg.sender].value = msg.value;
     }
 
     function withdraw() public {
-        uint256 value = address(this).balance;
+        uint value = clients[msg.sender].value;
 
         uint256 clientWithdraw = (value * 9) / 10;
         uint256 contractWithdraw = value - clientWithdraw;
@@ -41,7 +65,7 @@ contract ContratoPayable {
         client.transfer(clientWithdraw);
         owner.transfer(contractWithdraw);
 
-        clients[msg.sender] = 0;
+        clients[msg.sender].value = 0;
         
     }
 
