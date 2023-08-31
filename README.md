@@ -30,4 +30,12 @@
         0000000000000000000000000000000000000000000000000000000000000008
         4665726e616e6461000000000000000000000000000000000000000000000000
 
+### Recuperando informações da blockchain local/carteira local
+
+        const web3 = new Web3(window.ethereum);
+        const conex_result = await ethereum.request({method: 'eth_requestAccounts'});
+        console.log(conex_result);
+        let contas = web3.eth.getAccounts();
+
+
 
