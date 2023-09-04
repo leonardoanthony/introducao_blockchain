@@ -1,2 +1,0 @@
-// seu_script.js
-
