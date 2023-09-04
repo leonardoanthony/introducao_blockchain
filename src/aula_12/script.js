@@ -1,6 +1,11 @@
 async function getContractInitData(){
-    const endereco = '0xa379d2ADd94b5772FF3f57da10C88Aa6cD7b7398';
+    const endereco = '0x097b2445d5Ce5DFDeA75c78371995926AC51A673';
     const {abi} = await (await fetch('../../build/contracts/Padrao.json')).json();
+    const chain_id = await ethereum.request({method: 'eth_chainId'});
+    if(chain_id != '0x61'){
+        alert('Por favor, conecte-se a Testnet Binance Smart Chain');
+        return;
+    }
     return {abi, endereco};
 }
 
@@ -51,6 +56,8 @@ async function getGas() {
             console.log(error);
     });
 }
+
+ethereum.on('chainChanged', () => window.location.reload());
 
 document.querySelector('#conectar').addEventListener('click', conectar);
 document.querySelector('#getGas').addEventListener('click', getGas);
